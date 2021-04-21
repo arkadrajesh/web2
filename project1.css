@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+    background-color:#80808029;
+    /* margin: 20px; */
+}
+
+.container{
+    margin: 5%;
+    /* border: 3px black solid; */
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.parent{
+    padding: 10px;
+}
+
+nav:nth-child(2n+1){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: coral; */
+    margin: 20px;
+}
+
+.logo{
+    letter-spacing: 0.2em;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-right: 550px;
+    padding: 10px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: auto;
+    text-transform: capitalize;
+}
+
+li{
+    list-style: none;
+}
+
+.name{
+    text-transform: capitalize;
+    font-size: 30px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* align-self: center; */
+    /* margin-top: 70px; */
+    color:tomato;
+}
+.explore{
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 20px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+
+.icons {
+    display:flex;
+    width: 100;
+    justify-content: space-between;
+    padding: 10px;
+    text-transform: capitalize;
+    margin-right: 300px;
+}
+
+.images{
+    height:170px;
+    width: 150px;
+    object-fit: cover;
+    margin-right: 50px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.child{
+    height:100%;
+    width: 100%;
+    background-color:chocolate;
+    border-radius: 10px;
+}
+
+.trending{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin-right: 170px;
+}
+
+.categories:hover{
+    color: white;
+}
+ .icons li:nth-child(1){
+    color: tomato;
+}
+h2{
+    display: flex;
+    text-transform: uppercase;
+}
+
+h2 span:nth-child(2){
+    color: brown;
+}
+
+.photo{
+    width: 50%;
+    height:100%;
+}
